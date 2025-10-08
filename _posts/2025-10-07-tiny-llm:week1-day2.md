@@ -1,5 +1,5 @@
 ---
-title: "Tiny-LLM（二）：实现旋转位置编码RoPE"
+title: "Tiny-LLM（二）：实现旋转位置编码(RoPE)"
 date: 2025-10-07 23:28:02 +0800
 categories: [默认分类]
 tags: []
