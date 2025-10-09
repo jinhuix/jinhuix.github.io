@@ -345,8 +345,6 @@ def simple_generate(
 
 ## **4 参考资料**
 
-请生成参考资料标题，[]()的形式，不要加粗带格式
-
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
 - [LLM Embeddings Explained: A Visual Primer](https://huggingface.co/spaces/hesamation/primer-llm-embedding)
 - [Qwen2.5-7B-Instruct Model Architecture and Parameters](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct?show_file_info=model.safetensors.index.json)
