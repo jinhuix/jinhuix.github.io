@@ -10,9 +10,10 @@ comments: true
 
 ## **1 任务总览**
 
-**任务细节**：[Tiny-LLM Week1-Day5](https://skyzh.github.io/tiny-llm/week1-05-qwen2-model.html)
+**任务细节**
 
-**任务细节**：[Tiny-LLM Week1-Day6](https://skyzh.github.io/tiny-llm/week1-06-generate-response.html)
+- [Tiny-LLM Week1-Day5](https://skyzh.github.io/tiny-llm/week1-05-qwen2-model.html)
+- [Tiny-LLM Week1-Day6](https://skyzh.github.io/tiny-llm/week1-06-generate-response.html)
 
 ### **1.1 实现 Qwen2TransformerBlock**
 
