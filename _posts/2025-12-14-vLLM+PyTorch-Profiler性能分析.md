@@ -95,7 +95,22 @@ order by ts;
 
 
 
+## **3 使用 Nsight Systems 进行分析**
+
+Nsight Systems 是一个高级工具，可以暴露更多的分析细节，例如寄存器和共享内存使用情况、注释的代码区域以及低级别的 CUDA API 和事件。
+
+首先[安装 nsight-systems](https://docs.nvidia.com/nsight-systems/InstallationGuide/index.html)，用以下命令运行得到 .nsys-rep 文件，然后在图像 UI 中查看并分析。如果包含子线程，需要使用 `os.environ["VLLM_WORKER_MULTIPROC_METHOD"] = "spawn"`。
+
+```shell
+nsys profile --output=/home/nsys_$(date +%Y%m%d_%H%M%S) \
+--trace=cuda,nvtx,osrt --stats=true -f true \
+python3 offline_inference.py
+```
+
+ <img src="./assets/img/post/2025-12/profiler-7.png" alt="profiler-7"/>
+
 ## **参考资料**
 
 - [https://vllm.hyper.ai/docs/contributing/profiling_index/](https://vllm.hyper.ai/docs/contributing/profiling_index/)
 - [https://perfetto.dev/docs/](https://perfetto.dev/docs/)
+- https://developer.nvidia.com/nsight-systems/get-started
