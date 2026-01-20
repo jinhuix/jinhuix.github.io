@@ -113,4 +113,4 @@ python3 offline_inference.py
 
 - [https://vllm.hyper.ai/docs/contributing/profiling_index/](https://vllm.hyper.ai/docs/contributing/profiling_index/)
 - [https://perfetto.dev/docs/](https://perfetto.dev/docs/)
-- https://developer.nvidia.com/nsight-systems/get-started
+- [https://developer.nvidia.com/nsight-systems/get-started](https://developer.nvidia.com/nsight-systems/get-started)
